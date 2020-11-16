@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+.firstheading {
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	color: #000000;
+	text-align: left;
+	letter-spacing: .1em;
+}
+.menuitems {
+	background: #D6D6D6;
+	border-collapse: collapse;
+	text-align: inherit
+		;
+}
+.images {
+	align-self: center;
+	padding-left: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+td, td {
+	padding: .25em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	letter-spacing: .1em;
+	border: 1px solid black;
+}
+blockquote {
+	font-size: 1.4em;
+}
+.emphasized {
+	font-style: italic;
+}
+div#header {
+	width: 100%;
+	background-color: #990000;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+div#header h1, div#invisibleh h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: 900;
+	color: white;
+	font-size: 2em;
+	margin-left: 2%;
+	padding: 0;
+}
+div#header img, div#invisibleh img {
+	float: left;
+	margin: .9em .6em 0 .75em; 
+}
+div#invisibleh {
+	width: 100%;
+	visibility: hidden;
+}
+div#sidebar {
+	width: 50%;
+	float: left;
+}
+div#navbar {
+	width: 45%;
+	float: right;
+	margin-left: 3.5%;
+	margin-top: -1em;
+	background-color: grey;
+}
+div#navbar ul {
+	list-style-type: none;
+}
+div#navbar ul li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .75em;
+	font-weight: 900;
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: .75em;
+}
+div#navbar ul li {
+	text-align: center;
+	display: inline;
+	width: 21%;
+	float: right;
+	margin-right: .5em;
+}
+.no-wrap {
+	clear: both;
+}
+li.changeBackground {
+	background-color: grey;
+}
+li.changeBackground:hover {
+	background-color: lightgray;
+}
+li.changeBackground:active {
+	background-color: darkgray;
+}
+div#main-contents {
+	width: 100%;
+	margin: auto;
+}
+div#inside {
+	width: 90%;
+	margin: auto;
+}
+div#contents {
+	width: 80%;
+	margin: auto;
+	border: #535353; 
+	border-top-left-radius: 50%;	
+}
+div#contents p {
+	font-size: .80em;
+}
+.imgcente {
+	float: right;
+	margin: 0 0 .5em .75em;
+}
+.imgleft {
+	float: left;
+	margin: 0 .75em .5em 0;
+}
+div#inside h2 {
+	text-align: center;
+	font-size: 2em;
+}
+.even-row {
+	background-color: lightgray;
+	font-size: 1.2em;
+}	
+.top-row {
+	border-top: ipx solid black;
+	border-bottom: 1px solid black;
+}
+.standout {
+	border-collapse: collapse;
+	width: 85%;
+	border-left: 5px solid gray;
+	border-right: 5px solid gray;
+}
